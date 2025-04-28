@@ -34,6 +34,7 @@ ENVIRONMENT = env.str("ENVIRONMENT", default="development")
 
 # Application definition
 CSRF_TRUSTED_ORIGINS = [
+    'https://signalpro-production.up.railway.app',
     'https://singanlspro-production.up.railway.app',
     'https://web-production-3ecc.up.railway.app',
     # Add other trusted origins here if needed
